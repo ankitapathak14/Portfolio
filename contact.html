@@ -3,61 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankita Pathak- Web developer, Programmer,ML enthusiast</title>
+    <title>Ankita Pathak - Get in Touch!</title>
     <link rel="stylesheet" href="Styles.css">  
-    <!-- <link rel="stylesheet" href="Styles1.css">
-      -->
+    
 </head>
 <body>
     <div class="container">
-      <div class="sidebar sidebarGo">
-        <nav>
-            <!-- I am getting error when the links are clicked , why is it so -->
-             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="intro.html" >My Intro</a></li>
-                <li><a href="services.html" >Services</a></li>
-                <li><a href="blog.html" >Blog</a></li>
-                <li><a href="contact.html" >Contact</a></li>
-            </ul>
-        </nav>
-</div>
-        <div class="main">
-          <div class="hamburger">
-            <img class="ham" src="ham.jpg " alt="" width="23px">
-            <img class="cross" src="cross.jpg  " alt="" width="23px">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.jpg" alt="Menu" width="23px">
+                <img class="cross" src="cross.jpg" alt="Close Menu" width="23px">
+            </div>
             <div class="contactform">
-                <h1>Contact me for work/general Enquiries</h1>
+                <h1>Let’s Connect!</h1>
+                <p>Hey there! 🌟 I'm thrilled that you want to reach out. Whether you’re looking to collaborate on an exciting project, need some advice, or just want to chat about tech, I’m all ears!</p>
+                <p>Your thoughts and ideas are important to me, so feel free to drop a message below. Let’s create something amazing together!</p>
                 <form>
-                  <div class="mb-3">
-                    <label for="clientemail" class="form-label">Name</label>
-                    <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
-                  </div>
                     <div class="mb-3">
-                      <label for="clientemail" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
-                    </div>
-                   
-                    <div class="mb-3">
-                      <label for="clientphone" class="form-label">Phone</label>
-                      <input type="pho" class="form-control" id="clientphone">
+                        <label for="clientName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="clientName" placeholder="Enter your name" required>
                     </div>
                     <div class="mb-3">
-                      <label for="clientemail" class="form-label">Enquiry</label>
-                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <label for="clientEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="clientEmail" placeholder="you@example.com" required>
+                        <div class="form-text">Your email is safe with me!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientPhone" class="form-label">Phone Number (optional)</label>
+                        <input type="tel" class="form-control" id="clientPhone" placeholder="Your phone number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientInquiry" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="clientInquiry" rows="4" placeholder="What can I help you with?" required></textarea>
                     </div>
                     <div class="mb-3" id="form-check">
-                      <input type="checkbox" class="form-check-input" id="isclient">
-                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                        <input type="checkbox" class="form-check-input" id="isClient">
+                        <label class="form-check-label" for="isClient">I’m interested in collaborating on a project!</label>
                     </div>
-                    <button type="submit" class="btn btn-sm">Submit</button>
-                  </form>
-             
-            
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
         </div>
     </div>   
+
     <script src="script.js"></script>
 </body>
 </html>

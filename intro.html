@@ -4,55 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankita Pathak- Web developer, Programmer,ML enthusiast</title>
+    <title>Ankita Pathak - Web Developer | Programmer | ML Enthusiast</title>
     <link rel="stylesheet" href="Styles.css">
-    <!-- <link rel="stylesheet" href="Styles1.css">
-      -->
 </head>
 
 <body>
     <div class="container">
         <div class="sidebar sidebarGo">
             <nav>
-                <!-- I am getting error when the links are clicked , why is it so -->
-                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="intro.html" >My Intro</a></li>
-                    <li><a href="services.html" >Services</a></li>
-                    <li><a href="blog.html" >Blog</a></li>
-                    <li><a href="contact.html" >Contact</a></li>
+                <!-- Ensure the links are working by checking the file paths -->
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./intro.html">My Intro</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
-    </div>
+        </div>
+
         <div class="main">
             <div class="hamburger">
-                <img class="ham" src="ham.jpg " alt="" width="23px">
-                <img class="cross" src="cross.jpg  " alt="" width="23px">
+                <img class="ham" src="ham.jpg" alt="Menu" width="23px">
+                <img class="cross" src="cross.jpg" alt="Close" width="23px">
             </div>
+
             <div class="intro">
-            
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt error quos rerum aliquid vitae
-                explicabo voluptate omnis adipisci, minima, sint cum quae enim qui rem nesciunt voluptatem doloribus
-                dolor repudiandae!</p> 
-                <!-- use chatgpt -->
-            <h2>My Skills</h2>
-            
-            <div class="skillContainer">
-                  <div class="skillItem"> HTML: <div class="skill t5"></div></div>
-                  <div class="skillItem"> CSS : <div class="skill"></div></div>
-                  <div class="skillItem"> JavaScript : <div class="skill"></div></div>
-                  <div class="skillItem"> Php : <div class="skill t5"></div></div>
-                  <div class="skillItem"> Python : <div class="skill"></div></div>
-            </div>
-                
+                <h2>About Me</h2>
+                <p>
+                    Hi! I'm Ankita Pathak, a passionate <strong>Web Developer</strong>, <strong>Programmer</strong>, and <strong>Machine Learning Enthusiast</strong> 
+                    who loves turning ideas into impactful digital solutions. Whether I’m designing user-friendly websites 
+                    or diving into machine learning algorithms, I find joy in solving problems and creating experiences that resonate with people.
+                </p>
+                <p>
+                    I'm always learning, exploring new trends in technology, and pushing the boundaries of my knowledge to deliver the best results in every project I take on. Technology for me is more than just a job, it’s my passion.
+                </p>
+                <a href="./aboutme.html" target="_blank">
+                    <button class="btn">More About Me</button>
+                </a>
+
+                <h2>My Skills</h2>
+                <div class="skillContainer">
+                    <!-- Skill bars with proficiency levels -->
+                    <div class="skillItem">
+                        <span>HTML</span> 
+                        <div class="skill" style="width: 90%;"> 90%</div>
+                    </div>
+                    <div class="skillItem">
+                        <span>CSS</span> 
+                        <div class="skill" style="width: 85%;"> 85%</div>
+                    </div>
+                    <div class="skillItem">
+                        <span>JavaScript</span> 
+                        <div class="skill" style="width: 80%;"> 80%</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    </div>
 
-    </div>
-    </div>
+    <!-- Include your external JavaScript -->
     <script src="script.js"></script>
 </body>
 

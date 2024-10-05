@@ -1,1 +1,25 @@
-This is my cv
+Ankita Pathak
+[Kolkata, West Bengal]
+[pathakankita106@gmail.com]
+
+Objective
+Enthusiastic college student pursuing a degree in [Computer Science Engineering with Artificial Intelligence and Machine Learning] with a strong interest in web development and a passion for photography. Eager to apply my creativity and technical skills to contribute to innovative projects while continuing to learn and grow in a dynamic environment.
+
+Education
+[Techno Main Salt Lake]
+[Kolkata, West Bengal]
+Bachelor of [Computer Science Engineering with Artificial Intelligence and Machine Learning] (Expected Graduation: [2028])
+
+Relevant Coursework: Web Development, Computer Science, Graphic Design, Digital Media
+Skills
+Web Development: HTML, CSS, JavaScript (basic knowledge)
+Photography: Experience in [landscapes, portraits, scenery]
+Software: Lightroom, Snapseed
+Soft Skills: Teamwork, Communication, Problem-solving, Time management
+Projects
+Personal Portfolio Website
+
+Developed a personal portfolio website to showcase my photography and web development projects using HTML, CSS, and JavaScript.
+Implemented responsive design to ensure compatibility across various devices.
+Photography Portfolio
+
