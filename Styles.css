@@ -132,7 +132,7 @@ p {
 .btn {
     padding: 10px 15px;
     border-radius: 5px;
-    color: #fff;
+    color: #eeeeee;
     background-color: var(--primary-color);
     font-weight: 600; 
     font-size: 1em;
@@ -254,3 +254,4 @@ p {
             font-size: 10px;
         }
     }
+}
