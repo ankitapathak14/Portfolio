@@ -116,12 +116,13 @@ p {
 }
 
 .hello {
-    font-size: 2.5em; 
-    color: var(--primary-color); 
+    font-size: 3em;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 .name {
-    font-size: 2.5em; 
+    font-size: 3.5em;
     font-weight: bold;
 }
 
@@ -221,9 +222,11 @@ p {
     margin: 10px 0; 
 }
 .devPic img {
-    height: 58vh;
+    height: 58em;
     box-shadow: 2px 2px 10px black;
     border-radius: 25px;
+    margin-top: -50px;
+    
 }
 .aboutme{
     border: black;
@@ -231,6 +234,7 @@ p {
     padding: 10px;
     box-sizing: border-box;
 }
+
 @media (max-width: 1615px) {
     .devInfo{
         font-size: 10px;
@@ -240,6 +244,8 @@ p {
     }
         .devPic{
             display: flex;
+            height: 20px;
+            margin-top: -70px;
         }
         .intro,.blogContainer,.contactform{
             margin: 50px 8px ;
