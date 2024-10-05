@@ -239,7 +239,7 @@ p {
         font-size: 6px;
     }
         .devPic{
-            display: none;
+            display: flex;
         }
         .intro,.blogContainer,.contactform{
             margin: 50px 8px ;
