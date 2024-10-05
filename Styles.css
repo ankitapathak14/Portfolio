@@ -108,8 +108,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0; 
-}
+    margin: 100px 0;
 
 .devInfo {
     max-width: fit-content; 
@@ -222,12 +221,12 @@ p {
     margin: 10px 0; 
 }
 .devPic img {
-    height: 58em;
+    height: 78vh;
     box-shadow: 2px 2px 10px black;
     border-radius: 25px;
-    margin-top: -50px;
     
 }
+
 .aboutme{
     border: black;
     margin: 30px 30px;
@@ -250,5 +249,8 @@ p {
         .intro,.blogContainer,.contactform{
             margin: 50px 8px ;
     
+        }
+        .sidebar{
+            font-size: 10px;
         }
     }
