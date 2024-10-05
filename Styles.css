@@ -243,15 +243,12 @@ p {
     }
         .devPic{
             display: flex;
-            height: 20px;
-            margin-top: -100px;
+
         }
         .intro,.blogContainer,.contactform{
             margin: 50px 8px ;
     
         }
-        .sidebar{
-            font-size: 10px;
-        }
+        
     }
 }
